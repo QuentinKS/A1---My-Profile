@@ -3,7 +3,7 @@
 This is my first ever website I dont know what to make a website about so why dont I make it about me? It **is** _MY_ website after all haha
 
 ### About Me
-
+![My Face](A1---My-Profile/Picture-of-QKS)
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
