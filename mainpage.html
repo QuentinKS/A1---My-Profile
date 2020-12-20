@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Me</a>
+    <a href="myidealjob.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Ideal Job</a>
+    <a href="personalprofile.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Personal Profile</a>
+    <a href="projectidea.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Project Idea</a>
+  </div>
+</div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Welcome to ME!</h1>
+      <p>This is my first ever website! I dont know what to make a website about so why dont i make it about me? It <em>is</em> <strong>MY</strong> website after all haha </p>
+    </div>
+  </div>
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">My Head</h1>
+      <p><a href="Picture-of-QKS.jpg"></a></p>
+    </div>
+  </div>
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">About Me</h1>
+      <p><strong>Name: </strong>Quentin Kosena Schuster</p>
+      <p><strong>Student Number: </strong>s3995261</p>
+      <p><strong>Student Email: </strong>s3885261@student.rmit.edu.au</p>
+      <p><strong>Nationality & Culture: </strong>Australian-born Samoan </p>
+      <p><strong>Education to date: </strong>Completed high school in 2015 and tried to do uni a few times but wasn’t prepared mentally for the challenge. </p>
+      <p><strong>Laguages spoken: </strong>English, Samoan</p>
+      <p><strong>Fun Fact: </strong>One fact about yourself others may find interesting - am currently on hiatus but I stream from time to time on Twitch: <a href="https://twitch.tv/KingKouste>twitch.tv/KingKouste</a>. Feel Free to stop by! </p>
+    </div>
+    </div>
+  </div>   
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidebar
+var mySidebar = document.getElementById("mySidebar");
+
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+
+// Toggle between showing and hiding the sidebar, and add overlay effect
+function w3_open() {
+  if (mySidebar.style.display === 'block') {
+    mySidebar.style.display = 'none';
+    overlayBg.style.display = "none";
+  } else {
+    mySidebar.style.display = 'block';
+    overlayBg.style.display = "block";
+  }
+}
+
+// Close the sidebar with the close button
+function w3_close() {
+  mySidebar.style.display = "none";
+  overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
