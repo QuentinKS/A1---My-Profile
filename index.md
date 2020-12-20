@@ -1,10 +1,8 @@
-## Welcome to GitHub Pages
+# Welcome to ME!
 
-You can use the [editor on GitHub](https://github.com/QuentinKS/A1---My-Profile/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+This is my first ever website I dont know what to make a website about so why dont I make it about me? It **is** _MY_ website after all haha
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+### About Me
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
