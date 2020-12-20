@@ -19,30 +19,11 @@ This is my first ever website I dont know what to make a website about so why do
 
 **Fun Fact**: - I am currently on hiatus but I stream from time to time on Twitch @ [twitch.tv/KingKouste](https://www.twitch.tv/KingKouste). Feel free to come by and get to know me more :)
 
-```markdown
-Syntax highlighted code block
+One thing Im known for in my family is being the _computers/gaming/technology_ expert. Thats just because my family is more old-school and I'm the one who teaches them how to use any new technology we get, sets up the TVs and helps them with anything they need tech-wise. I do enjoy IT and its products, especially with how the future is going.
 
-# Header 1
-## Header 2
-### Header 3
+IT has always and will always be a part of my life and I don’t have an interest in a singular branch of IT, but I have always been interested in the field.  I took a particular interest when I was a boy at the family computer trying to design my Bebo page to look how I want it with a terribly animated border and would play Beautiful Girls by Sean Kingston when you go on my profile page. I don’t have any experience in IT yet, but I have been trying to learn Python in my spare time cause a friend recommended I learn it as it’s the easiest and the most used out of all the coding languages used in the field. 
 
-- Bulleted
-- List
+RMIT through Open Universities Australia has given me an opportunity to study whatever I want, whenever I want to. The flexibility they provide allows me to take on courses if and/or when my lifestyle changes. Also, if there is not enough time to fit study, I can drop subjects and pick them back up when I am ready. This kind of learning method is wonderful, so I balance having a job and being able to study something to expand my skillset for the future. 
 
-1. Numbered
-2. List
+While studying my course, Introduction to IT (Information technology), I expect to be exposed to a variety of different branches that encompasses the IT tree. This will be a great learning experience for myself to zero-in on a field I want to learn more about and master. From Ethics and legality to Machine-learning and AI. During my studies, learning about many of the core topics that encompasses Information technology will broaden my mind to the topic and maybe surprise myself in finding something interesting, I may have had no interest in before. 
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/QuentinKS/A1---My-Profile/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
