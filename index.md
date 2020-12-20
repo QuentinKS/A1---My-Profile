@@ -3,8 +3,21 @@
 This is my first ever website I dont know what to make a website about so why dont I make it about me? It **is** _MY_ website after all haha
 
 ### About Me
-![My Face](A1---My-Profile/Picture-of-QKS)
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![My Face](/Picture-of-QKS.jpg)
+
+**Name**: Quentin Kosena Schuster 
+
+**Student number**: s3885261 
+
+**Student email**: s3885261@student.rmit.edu.au 
+
+**Nationality & culture**: Australian-born Samoan 
+
+**Education to date**: Completed high school in 2015 and tried to do uni a few times but wasn’t prepared mentally for the challenge. 
+
+**Languages spoken**: English, Samoan 
+
+**Fun Fact**: - I am currently on hiatus but I stream from time to time on Twitch @ [twitch.tv/KingKouste](https://www.twitch.tv/KingKouste). Feel free to come by and get to know me more :)
 
 ```markdown
 Syntax highlighted code block
