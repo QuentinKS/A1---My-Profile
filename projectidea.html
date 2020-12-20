@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Project Idea</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+.w3-sidebar {
+  z-index: 3;
+  width: 250px;
+  top: 43px;
+  bottom: 0;
+  height: inherit;
+}
+ul.a {
+  list-style-type: circle;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-theme w3-top w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About Me</a>
+    <a href="myidealjob.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Ideal Job</a>
+    <a href="personalprofile.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Personal Profile</a>
+    <a href="projectidea.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Project Idea</a>
+  </div>
+</div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidebar is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Project Idea</h1>
+      <p>Create a recommendation system for Twitch, a live streaming platform, that allows the user to find a specific content creator that they would like to watch. A database will group streamers thematically based on a variety of factors: country, family or mature, personality, viewer size, theme, he/she pronouns, live now and when the user inputs their wanted criteria, it would output a streamer the user may like. This in turn will allow better discovery on platforms such as Twitch. A machine learning algorithm will also be used to take feedback and then use the users experience to sort the streamer and make guesses as to what a person will like. Current discoverability on Twitch favour streamers based on viewership rather than it being tailored what the user may like. </p>
+      <p>According to Twitch Tracker, 6.9 million people stream to Twitch on a monthly basis and the platform itself has on average 2.1 million concurrent viewers. Also, with an average 87.5K concurrent streamers, it's safe to say that the market it currently saturated. It can be hard for a new streamer to be discovered in 2020 than say 2012 when there was 102K concurrent viewers, 300K monthly broadcasters and 2.2K concurrent streamers. New users would find it hard to find a streamer they can relate to and a system that recommends streamers can help to filter through all the streamers and find someone they would like to watch. With how hard it is for a new streamer on twitch to be discovered it leaves the possibility of many great content creators and streamers left in the majority because they didn’t get lucky enough, not because of their hard work or quality of content. </p>
+      <p>The system itself is an integrated feature and allow a user to find a streamer they desire in that point of time. The system is tailored to the users wants and can be reset or reuse old searches. The system utilizes machine learning to tailor searches to users as time goes on and experience is gained </p>
+      <p>The database is the root of the recommendation system. When the profile is complete the database will sort users into the categories formed by the answers to the profile questions. Streamers can be in multiple categories at once. As the user calls different categories, it will return streamers that fit into all or at least some of the categories. </p>
+      <p>The profile will ask the user for inputs using a drop-down bar which will allow the person inputting the answers to create a personalised profile. The profile itself does not need to be filled out if you are just a viewer but a streamer can fill it out or change it whenever they want. The profile will ask for information that will be attached to the user's profile and be called for when they match what an individual is looking for. The categories that will define a streamer will be language, mature or family friendly, personality, theme, he/she/they/them, pc or console. Some factors such as game/category can only be determined by what that person streams but by making use of the ‘recently streamed categories’ on Twitch channels, it's possible to make a safe assumption on what a streamer may or may not stream next. </p>
+      <p>When a user enters the site, they can choose to browse as per usual or they use the recommend feature. If they want to use the recommendation, a small window will pop-up asking for some descriptors to help the system recommend someone to the user. Youll be able to find someone based on any one of the factors or by using all of them. You can leave some blank and you can choose from all of them if you like. When recommended, you then have the option to sort by more factors like viewership (0-10, 11-50, 51-100, 101-500, 501- 1000 and 1001+ viewers), country, live or offline. This will allow you to fine tune your search. If you're looking for something to watch for a small session or if you're looking for someone whose community, you would like to become a part of.  </p>
+      <p>If the user decides to leave the channel, they will be presented with a short feedback survey that will help to fine tune the recommendations. The survey will ask if they liked the recommendation and any feedback on whether the streamer, they were recommended was someone they might watch again. As feedback is gained the system will learn more and more about users experience regarding the profile they created and the streamers they have recommended. It learns which streamers are enjoyed more often and will recommend them more often, without considering, their size or partnership status. It will learn solely on the feedback of the users. </p>
+      <p>If the user is looking for someone to watch for a short amount of time or even would like to see who the system recommends, there is a feature which will randomly assign the user a content creator within the space of the parameters set to allow some variety and excitement into the mix.  </p>
+      <p>Python is a simple and easy to learn coding language that emphasizes readability. Python is also a widely used coding language and its readability will also allow new users to become familiar with what the code is executing. </p>
+      <p>PyCharm is an IDE (Integrated Development Environment) that contains a text editor which allows you to creator programs using Python coding language. Using PyCharm is more so a preference, rather than a mandatory. There are plenty of good text editors for python but I started and am still learning python using PyCharm so that’s why I chose it</p>
+      <p>SQLite is integrated into python already but that allows us to create databases and store, sort and organise data. Using modules like SQLite will be very helpful in designing a database as that is a main part of the project. </p>
+      <p>Skills required for this project:</p>
+      <ul class="a">
+       <li>Python coding knowledge and skills </li>
+        <li>Using SQL to create a database </li>
+        <li>A process to filter and sort data </li>
+        <li>A high-level understanding in statistics and filtering algorithms  </li>
+        <li>A high-level understand and skills to integrate machine learning  </li>
+      </ul>
+      <p>The skills required to make this project can be learnt but due to the nature of the subjects it encompasses it is not likely to learn these topics and understand them in the span of a few weeks. Let alone understand them enough to incorporate and initiate said skills in the project. It can be done, but the knowledge required is learnt and mastered over years, not weeks. Hypothetically if I had the knowledge, it would still be hard to say that the system would work and discovery on Twitch was a lot better. It is only once the system is live and the millions of active users.</p>
+      <p>If the project is successful it will give many smaller streamers the opportunity, they miss out on many times due to the lack of proper discovery by Twitch. I am very passionate about content creation and as a content creator myself, I experienced it first-hand the problems of discovery that Twitch had in store for me. The system can also be used in other fields as it's based on the feedback of its users and how the system can tailor its recommendations to the user. </p>
+    </div>
+  </div>
+ 
+
+<!-- END MAIN -->
+</div>
+
+
+
+</body>
+</html>
