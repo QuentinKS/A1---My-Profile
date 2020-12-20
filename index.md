@@ -27,4 +27,6 @@ RMIT through Open Universities Australia has given me an opportunity to study wh
 
 While studying my course, Introduction to IT (Information technology), I expect to be exposed to a variety of different branches that encompasses the IT tree. This will be a great learning experience for myself to zero-in on a field I want to learn more about and master. From Ethics and legality to Machine-learning and AI. During my studies, learning about many of the core topics that encompasses Information technology will broaden my mind to the topic and maybe surprise myself in finding something interesting, I may have had no interest in before. 
 
-At the initial stage of my studies, my dream job is to be a Software Engineer! Click [here](/dreamjob)
+
+
+At the initial stage of my studies, my ideal job is to be a Software Engineer! Click [here](/mydreamjob.md) I will talk more about what a software engineer is and why I want to be one!
